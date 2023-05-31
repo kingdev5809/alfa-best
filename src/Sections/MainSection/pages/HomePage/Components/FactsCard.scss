@@ -1,0 +1,62 @@
+.facts_card {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  &_item {
+    width: 10vw;
+
+    .title {
+      display: flex;
+      align-items: center;
+      img {
+        width: 2.5vw;
+      }
+      h1 {
+        display: flex;
+        align-items: center;
+        b {
+          font-size: 2vw;
+          font-weight: 500;
+          margin-left: 5px;
+        }
+        span {
+          font-size: 1.1vw;
+          font-weight: 500;
+          margin-left: 5px;
+        }
+      }
+    }
+    p {
+      font-size: 1vw;
+      color: gray;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .facts_card {
+    display: block;
+    &_item {
+        width: 100%;
+        margin: 25px 0;
+      .title {
+        img {
+          width: 8vw;
+        }
+        h1 {
+          display: flex;
+          align-items: center;
+          b {
+            font-size: 7vw;
+          }
+          span {
+            font-size: 3.1vw;
+          }
+        }
+      }
+      p {
+        font-size: 3.5vw;
+      }
+    }
+  }
+}

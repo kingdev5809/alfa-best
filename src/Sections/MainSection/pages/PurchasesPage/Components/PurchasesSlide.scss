@@ -1,0 +1,55 @@
+.slide {
+  margin-top: 12vw;
+  min-height: 51.7vh;
+  &_title {
+    width: 70%;
+    h1 {
+      font-size: var(--title-size);
+    }
+    p {
+      font-size: 1.2vw;
+      margin-top: 10px;
+    }
+  }
+  &_content {
+    margin-top: 40px;
+    img {
+      // width: 35vw;
+      height: 17vw;
+      border-radius: 10px;
+      &::selection {
+        background-color: transparent;
+      }
+    }
+  }
+  button{
+    width: 180px;
+    margin:20px auto;
+    cursor: pointer;
+    display: block;
+    padding: 18px 32px;
+    background-color: var(--green-color);
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .slide {
+    margin-top: 16vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .slide {
+    margin-top: 18vw;
+
+    &_content {
+      img {
+        height: 28vw;
+      }
+    }
+  }
+}

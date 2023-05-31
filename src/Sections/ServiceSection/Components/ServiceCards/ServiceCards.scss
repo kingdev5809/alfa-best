@@ -1,0 +1,56 @@
+.service_cards {
+  margin-top: 50px;
+  &_title {
+    h1 {
+      font-size: 1.8vw;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 1.5vw;
+      line-height: 2.1vw;
+    }
+  }
+  &_content {
+    background-color: #f2fcf9;
+    padding: 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 2vw;
+    &_item {
+      img {
+        width: 2.5vw;
+      }
+      p {
+        font-size: 1.3vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .service_cards {
+    &_title {
+      h1 {
+        font-size: 2.5vw;
+      }
+      p {
+        line-height: 2.6vw;
+        font-size: 2vw;
+      }
+    }
+    &_content {
+      display: block;
+      &_item {
+        margin: 10px 0;
+        img {
+          width: 4vw;
+          margin: 4px 0;
+        }
+        p {
+          font-size: 2.5vw;
+        }
+      }
+    }
+  }
+}

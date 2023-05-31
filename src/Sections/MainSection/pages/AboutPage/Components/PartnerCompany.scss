@@ -1,0 +1,14 @@
+.partner_company {
+  margin-top: 40px;
+  img {
+    height: 5vw;
+    &::selection {
+      background-color: transparent;
+    }
+  }
+}
+@media screen and (max-width: 520px) {
+  .partner_company {
+    display: none;
+  }
+}

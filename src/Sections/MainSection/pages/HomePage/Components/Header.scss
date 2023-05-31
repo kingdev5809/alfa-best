@@ -1,0 +1,128 @@
+.swiper{
+  overflow: initial;
+}
+.header_sec {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  padding-top: 135px;
+  min-height: 100vh;
+  z-index: 9;
+  background-color: #000;
+  position: relative;
+  &::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000003c;
+  }
+  
+  &_inner {
+    position: relative;
+    min-height: 80vh;
+    &_content {
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      &_logo {
+        width: 4vw;
+        margin: 10px 0;
+        img {
+          width: 100%;
+        }
+      }
+      color: #fff;
+      margin: 10px 0;
+      h2 {
+        width: 65%;
+        font-size: 2.5vw;
+        font-weight: 600;
+        line-height: 3.5vw;
+      }
+      button {
+        margin: 10px 0;
+        background-color: #28c79e;
+        border: none;
+        border-radius: 50px;
+        padding: 15px 30px;
+        color: #fff;
+        font-size: 1.5vw;
+        cursor: pointer;
+      }
+    }
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    display: flex;
+    .swiper-pagination-bullet {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 50px;
+      border: 2px solid #fff;
+      margin: 10px;
+      &-active {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+  display: flex;
+  z-index: 999;
+}
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  margin: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 520px) {
+  .header_sec {
+    position: relative;
+    min-height: 40vh;
+    &_inner {
+      min-height: 10vh;
+      &_content {
+        bottom: -180px;
+        &_logo {
+          display: none;
+        }
+        h2 {
+          font-size: 4.5vw;
+          line-height: 5.5vw;
+          width: 80%;
+          color: #000;
+        }
+        button {
+          font-size: 3vw;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    justify-content: center;
+    left: 0;
+    right: 0;
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

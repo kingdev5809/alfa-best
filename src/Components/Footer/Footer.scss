@@ -1,0 +1,136 @@
+.footer {
+  background-color: #1b2330;
+  padding-top: 30px;
+  margin-top: 50px;
+  &_content {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      justify-content: space-between;
+      width: 45vw;
+      .logo {
+        width: 10vw;
+        margin: auto 0;
+        margin-top: 10px;
+      }
+      ul {
+        li {
+          margin: 8px 0;
+          a {
+            font-size: 0.8vw;
+            color: white;
+          }
+        }
+      }
+    }
+    .right {
+      h4 {
+        color: #fff;
+        font-size: 1vw;
+      }
+      .icons {
+        display: flex;
+
+        img {
+          width: 2vw;
+          margin: 10px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  &_content_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(61, 61, 61);
+    padding: 10px 0;
+    .left {
+      h1 {
+        font-size: 1.6vw;
+        color: #fff;
+        font-weight: 500;
+      }
+      h3 {
+        color: #d8d8d8;
+        font-size: 1.3vw;
+        span {
+          font-size: 1vw;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      p {
+        color: #fff;
+        font-size: 1vw;
+        margin: 0px 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 520px) {
+  .footer {
+    background-color: #001836;
+
+    &_content {
+      display: block;
+      .left {
+        width: 100%;
+        display: block;
+        .logo {
+          width: 40vw;
+          margin: 10px auto;
+          display: flex;
+          justify-content: center;
+        }
+        ul {
+          margin-top: 10px;
+          li {
+            a {
+              font-size: 4vw;
+            }
+          }
+        }
+      }
+      .right {
+        margin-top: 20px;
+        h4 {
+          font-size: 3.5vw;
+        }
+
+        .icons {
+          img {
+            width: 5vw;
+          }
+        }
+      }
+    }
+    &_content_2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      .left {
+        order: 2;
+        h1 {
+          font-size: 4.6vw;
+          font-weight: 500;
+        }
+        h3 {
+          font-size: 3.3vw;
+          span {
+            font-size: 2.2vw;
+          }
+        }
+      }
+      .right {
+        p {
+          font-size: 3vw;
+          margin: 10px 15px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

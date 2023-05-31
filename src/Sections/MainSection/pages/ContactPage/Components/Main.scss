@@ -1,0 +1,122 @@
+.contact_page {
+  margin-top: 12vw;
+  min-height: 55.5vh;
+  &_title {
+    h1 {
+      font-size: var(--title-size);
+      font-weight: 700;
+    }
+  }
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    .left {
+      width: 50vw;
+      .form {
+        width: 80%;
+        p {
+          font-size: 1.2vw;
+        }
+        .input {
+          display: flex;
+          flex-direction: column;
+          label {
+            font-size: 1.5vw;
+            color: gray;
+            margin: 8px 0;
+          }
+          input {
+            background: #f2fcf9;
+            border: 1px solid #1b23309f;
+            border-radius: 10px;
+            padding: 1vw;
+            outline: none;
+            color: gray;
+          }
+        }
+        button {
+          padding: 8px 20px;
+          margin: 15px 0;
+          background-color: var(--green-color);
+          border: none;
+          border-radius: 10px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      .info {
+        background-color: #f2fcf9;
+        width: 100%;
+        padding: 10px;
+        p {
+          font-size: 1.2vw;
+          color: gray;
+          margin-top: 10px;
+        }
+        h3 {
+          font-size: 1.5vw;
+          font-weight: 600;
+          margin-top: 3px;
+          span {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .right {
+      width: 26vw;
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contact_page {
+    margin-top: 16vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact_page {
+    margin-top: 18vw;
+    &_content {
+      display: block;
+      .left {
+        width: 100%;
+        .form {
+          p {
+            font-size: 2vw;
+          }
+          .input {
+            label {
+              font-size: 3.5vw;
+            }
+            input,
+            select {
+              padding: 3vw;
+            }
+          }
+        }
+        .info {
+          p {
+            font-size: 3vw;
+          }
+          h3 {
+            font-size: 4vw;
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        margin-top: 30px;
+        img{
+            border-radius: 0;
+        }
+      }
+    }
+  }
+}

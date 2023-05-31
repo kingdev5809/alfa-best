@@ -1,0 +1,68 @@
+.contact {
+  background-color: #f2fcf9;
+  padding: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    width: 45%;
+    .inputs {
+      &_item {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-size: 1.5vw;
+          margin: 8px 0;
+        }
+        input,
+        select {
+          background: #f2fcf9;
+          border: 1px solid #1b2330;
+          border-radius: 10px;
+          padding: 1vw;
+          outline: none;
+          color: gray;
+        }
+      }
+    }
+    button {
+      padding: 10px 20px;
+      margin: 15px 0;
+      background-color: var(--green-color);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+    }
+  }
+  .right {
+    width: 40%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact {
+    display: block;
+    .left {
+      width: 100%;
+      .inputs {
+        &_item {
+          label {
+            font-size: 3.5vw;
+          }
+          input,
+          select {
+            padding: 2vw;
+          }
+        }
+      }
+    }
+    .right {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.advantages {
+  margin-top: 50px;
+  &_title {
+    img {
+      width: 7vw;
+    }
+    h2 {
+      font-size: 2vw;
+    }
+  }
+  &_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .advantages {
+    &_title {
+      img {
+        width: 12vw;
+      }
+      h2 {
+        font-size: 5vw;
+      }
+    }
+    &_cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

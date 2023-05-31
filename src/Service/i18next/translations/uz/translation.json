@@ -1,0 +1,151 @@
+{
+  "about_company": "Kompaniya haqida",
+  "career": " Karyera",
+  "purchases": "Xarid qilish",
+  "cooperation": "Hamkorlik ",
+  "contacts": "Bog'lanish",
+  "engineering": "Muhandislik va texnik ekspluatatsiya",
+  "service": "Xizmat va maishiy xizmat ko'rsatish",
+  "corporate": "Korporativ ovqatlanish",
+  "transportation": "Yuk tashish",
+  "services": "Xizmatlar",
+  "footer": {
+    "h4": "Ortimizdan yuring",
+    "p1": "Yordam",
+    "p2": "Jamoaning bir qismi bo'ling"
+  },
+  "story": {
+    "h2": "Hikoya",
+    "p": "Korporativ ovqatlanish va muhandislik operatsiyalarining boshlanishi",
+    "p2": "Nazorat qiluvchi organlarning talablariga muvofiq, binolarni saqlash ob'ekt foydalanishga topshirilgan paytdan boshlab boshlanadi. O'lchov va ta'mirlash ishlarini bajarish uchun litsenziyaga va tegishli imkoniyatlarga ega bo'lgan har qanday tashkilot boshqaruvchi kompaniya sifatida harakat qilishi mumkin. "
+  },
+  "photogallery": {
+    "h1": "Fotogalereya"
+  },
+  "home": {
+    "headersec": {
+      "h2": " Korporativ ovqatlanish va muhandislik faoliyati",
+      "button": "Qo'shimcha ma'lumot olish "
+    },
+    "aboutsec": {
+      "h3": "kompaniyamiz haqida",
+      "p": "Alfa best company - O'zbekiston Respublikasida smenali lagerlar uchun kompleks xizmatlar operatori Xodimlarimizning chuqur bilimi, ko'p qirrali tajribasi va professionalligi kompaniya faoliyatining barcha sohalarida muvaffaqiyatlar garovidir. sifatli xizmat ko'rsatish, xarajatlarni kamaytirish va kerakli qulaylikni ta'minlash. Besh yil davomida kompaniya xizmatlarining asosiy mijozi 'Lukoyl' OAJ bo'lib, bu o'z-o'zidan bizning xizmatlarimiz sifati haqida gapiradi.",
+      "button": "Qo'shimcha ma'lumot olish "
+    },
+    "factscard": {
+      "span": "kv.m²",
+      "p1": "Ob'ektlarni obodonlashtirish sohalari",
+      "p2": "Tozalash inshootlari joylari",
+      "p3": "Ovqatlanish",
+      "p4": "Xodimlar"
+    },
+    "ourgoal": {
+      "h1": "Bizning ",
+      "span": "maqsadimiz",
+      "p": "Alfabest - sanoat korxonalari, umumiy ovqatlanish ob'ektlari, savdo va biznes markazlari, ombor majmualari va texnoparklarga texnik xizmat ko'rsatish, tozalash, foydalanish va texnik xizmat ko'rsatish bo'yicha kompleks echimlarni taklif etadi. Biz xizmat ko'rsatishning yuqori standartlarini qo'llab-quvvatlaymiz va zamonaviy ekologik toza texnologiyalardan foydalangan holda innovatsion echimlarni amalga oshiramiz.",
+      "ul": {
+        "1": "Jarayonni optimallashtirish orqali xarajatlarni kamaytirish",
+        "2": " jalb qilish orqali xizmatlar sifatini oshirish",
+        "3": "Boshqaruv jamoasining sa'y-harakatlarini asosiy faoliyatga jamlash",
+        "4": "Sizning ehtiyojlaringizga moslashtirilgan menyu va xizmatlar Shartnoma tuzishning asosiy bosqichlari"
+      }
+    },
+    "partners": {
+      "h1": "Hamkorlarimiz bizdan mamnun",
+      "p": "Agar siz bizning xizmatlarimizga qiziqsangiz, bizning hamkorimiz bo'ling va premium xizmatlarga ega bo'ling"
+    }
+  },
+  "about": {
+    "header": "Kompaniya profili",
+    "ourmission": {
+      "h1": "Alfa best kompaniyasi O'zbekiston Respublikasi hududida smenali lagerlar uchun kompleks xizmatlar operatori hisoblanadi    Xodimlarimizning chuqur bilimi, xilma-xil tajribasi va professionalligi kompaniya faoliyatining barcha sohalarida muvaffaqiyat garovidir. Bizning vazifamiz yuqori sifatli xizmat ko'rsatish, xarajatlarni kamaytirish va zarur qulaylikni ta'minlashdan iborat.",
+      "h3": "Bizning vazifamiz",
+      "p": "Alfabest - sanoat korxonalari, umumiy ovqatlanish ob'ektlari, savdo va biznes markazlari, ombor majmualari va texnoparklarga texnik xizmat ko'rsatish, tozalash, foydalanish va texnik xizmat ko'rsatish bo'yicha kompleks echimlarni taklif etadi. Biz xizmat ko'rsatishning yuqori standartlarini qo'llab-quvvatlaymiz va zamonaviy ekologik toza texnologiyalardan foydalangan holda innovatsion echimlarni amalga oshiramiz.",
+      "h2": "YAGONA XIZMAT MILLIY KO'RSATMA",
+      "cards": {
+        "1": "Jamoaning bir qismi bo'ling",
+        "2": "Xizmat va maishiy xizmat ko'rsatish",
+        "3": "Korporativ ovqatlanish",
+        "4": "Transport va yo'lovchi tashish",
+        "p": "Batafsil"
+      }
+    },
+    "ourteam": {
+      "h1": "Bizning jamoamiz"
+    },
+    "partners": {
+      "h1": "Biz hamkorlarimiz bilan besh yildan beri birgamiz",
+      "p": "Biz hamkorlarimiz bilan besh yildan beri muvaffaqiyatli ishlayapmiz. Endi bizda 10 dan ortiq mijozlar bor va siz ham biz bilan hamkorlik qilishga xush kelibsiz."
+    }
+  },
+  "careerpage": {
+    "header": "Karyera",
+    "h1": " karerangizni biz bilan oshiring!",
+    "p": "Alfa-best professional faoliyatning turli sohalaridagi mutaxassislarni ishga taklif qiladi. Umumiy ovqatlanish, umumiy ovqatlanish, tozalash, texnik ekspluatatsiya, xizmat ko‘rsatish va yo‘lovchi tashish sohalarida bo‘sh ish o‘rinlari ochilgan.",
+    "h2": "Bizning bo'sh ish o'rinlarimiz (HH sahifasiga havola)",
+    "h3": "Doimiy bo'sh ish o'rinlari: Majburiy talab: rotatsiya asosida ishlash - Buxoro, Hisor",
+    "card": {
+      "1": {
+        "h2": "Oziq-ovqat ishlab chiqarish texnologi",
+        "p": "Kamida bir yillik tajriba va o'z ishiga mas'uliyat"
+      },
+      "2": {
+        "h2": "Oshpaz",
+        "p": "Kamida bir yillik tajriba va sakkiz turdagi taomlarni tayyorlash imkoniyatiga ega bo'lishi kerak"
+      }
+    }
+  },
+  "cooperationPage": {
+    "header": "Hamkorlik ",
+    "p": "Alfa-best kompaniyasi sanoat korxonalari, savdo markazlari, yirik va o'rta kompaniyalar bilan kompleks xizmatlar sohasida hamkorlik qilishdan mamnun bo'ladi.",
+    "cards": {
+      "card1": "Jarayonni optimallashtirish orqali xarajatlarni kamaytirish",
+      "card2": "Sizning ehtiyojlaringizga moslashtirilgan menyular va xizmatlar",
+      "card3": "Malakali tajribali pudratchini jalb qilish orqali xizmatlar sifatini oshirish",
+      "card4": "Boshqaruv jamoasining sa'y-harakatlarini asosiy faoliyatga jamlash"
+    },
+    "advantages": "Autsorsingning asosiy afzalliklari",
+    "inputs": {
+      "input1": {
+        "label": "Xizmat turini tanlang",
+        "value1": "Korporativ ovqatlanish",
+        "value2": "Korporativ ovqatlanish",
+        "value3": "Korporativ ovqatlanish"
+      },
+      "input2": {
+        "label": "Toʻliq ismingizni kiriting",
+        "placeholder": "Ism, familiya"
+      },
+      "input3": {
+        "label": "Telefon raqamingizni kiriting",
+        "placeholder": "+998"
+      },
+      "button": "Yuborish"
+    }
+  },
+  "contact": {
+    "title": "Kontaktlar",
+    "p": "Fikr-mulohaza shakli orqali bizga yozishingiz mumkin. Biz sizning savolingizni mutaxassisga yo'naltiramiz, agar kerak bo'lsa, siz bilan bevosita bog'lanadi yoki javobni elektron pochta orqali yuboradi.",
+    "input1": {
+      "label": "Toʻliq ismingizni kiriting",
+      "placeholder": "Ism, familiya"
+    },
+    "input2": {
+      "label": "Telefon raqamingizni kiriting",
+      "placeholder": "+998"
+    },
+    "button": "Yuborish",
+    "info": {
+      "tel": "Telefon",
+      "address": "Manzil",
+      "addressinner": "Toshkent sh. Shota Rustaveli, 156"
+    },
+    "modal": {
+      "1": "Sizning arizangiz muvaffaqiyatli yuborildi.",
+      "2": "Tez orada siz bilan bog'lanamiz"
+    }
+  },
+  "engineeringPage": {
+    "header": "Muhandislik va texnik ekspluatatsiya"
+  }
+}
